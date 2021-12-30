@@ -5,6 +5,6 @@ request.onload=function(){
     var data=JSON.parse(request.response);
     //console.log(data);
     for(i=0;i<=data.length;i++){
-        console.log(data[i].name);//,data[i].work,data[i].volunteer,data[i].awards);
+        console.log(data[i].name,data[i].region,data[i].subregion,data[i].population);
     }
 };
